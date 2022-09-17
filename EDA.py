@@ -153,7 +153,7 @@ def main():
             partial_paresis = st.selectbox('Partial Paresis:', ['No', 'Yes'])
             muscle_stiffness = st.radio('Muscle Stiffness:', ['No', 'Yes'])
             alopecia = st.radio('Alopecia:', ['No', 'Yes'])
-            obesity = st.select_slider('obesity:', ['No', 'Yes'])
+            obesity = st.select_slider('Obesity:', ['No', 'Yes'])
         with st.expander("Your Selected Options:"):
             result = {'Age':age,
 		    'Gender':gender,
